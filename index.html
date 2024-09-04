@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms </title>
+</head>
+<body>
+
+    <!-- Forms of all inputs  -->
+
+
+    <center><h1><mark>Personal Form</mark></h1></center>
+        <form style="background-color: rgb(165, 153, 221);">
+            <label for="firstname"  >Fname :</label>
+            <input type="text" id="firstname" name="fname" id="" placeholder="firstname"  ><br><br>
+            
+            <label for="middlename">Middlename : </label>
+            <input type="text" id="middlename" name="mname" placeholder="middlename"><br><br>
+            
+            <label for="lastname">Lname : </label>
+            <input type="text" id="lastname" name="lname" placeholder="lastname" ><br><br>
+            
+            <label for="gender">Gender :</label><br>
+            <input type="radio" name="gender" value="male">Male <br>
+            <input type="radio" name="gender" value="female">Female <br>
+            <input type="radio" name="gender" value="not to say">Not To Say <br><br>
+
+
+            <label for="dob">DOB :</label>
+            <input type="date" name="Dob" id="dob"><br><br>
+
+
+            <label for="email">Email :</label>
+            <input type="email"  placeholder="abc123@gmail.com"><br>
+            <label for="password1">Password :</label>
+            <input type="password" name="password1" placeholder="Password"><br><br>
+
+            <label for="phone">Phone Number :</label>
+            <input type="tel" name="phone no" id="phone" placeholder="0123456789" pattern="[0-9]{10}"><br><br>
+
+            <label for="skills">Skills :</label><br>
+            <input type="checkbox" name="skill1" value="html" >HTML <br>
+            <input type="checkbox" name="skill2" value="css" >CSS <br>
+            <input type="checkbox" name="skill3" value="jS" >JavaScript <br>
+            <input type="checkbox" name="skill4" value="java" >Java <br>
+            <input type="checkbox" name="skill5" value="sql">SQL <br>
+            <input type="checkbox" name="skill6" value="c" >C <br><br>
+
+
+            <label for="date1">Date :</label>
+            <input type="date" id="date1" name="date"><br>
+
+            <label for="time1">Time : </label>
+            <input type="time" id="time1" name="time"><br>
+
+            <label for="datetime1">Date Time :</label>
+            <input type="datetime-local" id="datetime1" name="datetime"><br>
+            <label for="month">Month :</label>
+            <input type="month" id="month" name="month"><br><br>
+
+            <label for="dis">RandomDisabled : </label>
+            <input type="text" name="Disable" id="dis" disabled="" placeholder="Disable"><br><br>
+            
+            <label for="auf">Auto Focus : </label>
+            <input type="text" autofocus ><br><br>
+
+            <label for="feedback">FeedBack : </label><br>
+            <!-- <textarea type="text" id="feedback"  rows="5" cols="10"  placeholder="Give your valuable feedback..." > -->
+            <textarea name="feed" id="feedback" placeholder="Give your valuable feedback" rows="6" cols="30"></textarea>
+
+    
+            <br><br>
+            <label for="pan">PanNumber : </label>
+            <input type="tel" id="pan" placeholder="ABCDE1234F" pattern="[A-Za-z]{5}\d{4}[A-Za-z]{1}" > <br><br>
+
+            <label for="aad">Aadhar Number : </label>
+            <input type="tel" id="aad" placeholder="1234-5678-9123" pattern="[0-9]{12}">
+
+
+
+
+    
+            <br><br><input type="submit" value="Register" formaction="../Day 7/loginform.html">
+            
+    
+    
+    
+        </form>
+    
+    
+</body>
+</html>
